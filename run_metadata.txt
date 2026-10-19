@@ -1,0 +1,15 @@
+=== System & Environment Metadata ===
+Execution Timestamp: Mon Oct 19 01:39:27 PM CDT 2026
+Target Hostname: babbage
+
+--- Kernel Version ---
+6.8.0-106-generic
+
+--- GCC Version ---
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+
+--- liburing Version ---
+liburing linked directly from source / header path
+
+--- Git Repository Status ---
+ca20af7a4412117b8e548da7ae767c086a3fac4f
