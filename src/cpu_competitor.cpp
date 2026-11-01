@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
+#include <stdbool.h>
 
 // Thread function that performs heavy computations on a pinned CPU core
 void* run_competing_workload(void *arg) {
@@ -24,7 +25,7 @@ void* run_competing_workload(void *arg) {
 
     uint64_t work_counter = 0;
     
-    // Continuous loop to consume CPU cycles for Study C
+    // Continuous loop to consume CPU cycles
     while (true) {
         for (volatile int i = 0; i < 1000000; i++) {
             work_counter += i;
